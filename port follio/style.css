@@ -1,0 +1,65 @@
+h1 {
+    color:#000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left:30px;
+}
+    
+/** {
+   border:solid
+}*/
+.header {
+    background-color:#1995CE;
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    border:solid
+}
+.grid{  
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.footer {
+    background-color:#1081b6;
+    display:flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: #555555;
+color:#1987ed;
+font-size: medium;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:orange
+}
+.menu{
+    margin-right:15px;
+    
+}
+.menu a{
+    margin-left: 15px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.item img{
+    width:  150px;
+    height: 150px;
+}
